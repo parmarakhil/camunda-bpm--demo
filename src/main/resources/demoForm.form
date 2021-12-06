@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Demo form",
+      "type": "text",
+      "id": "Field_0paaay8"
+    },
+    {
+      "label": "Name",
+      "type": "textfield",
+      "id": "Field_0zltapz",
+      "key": "field_0qfllbx",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "age",
+      "type": "number",
+      "id": "Field_0y661fy",
+      "key": "field_1nmm2ms"
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "Approved",
+      "type": "radio",
+      "id": "Field_0payewp",
+      "key": "field_0dbd448"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1c2jvyi"
+}
